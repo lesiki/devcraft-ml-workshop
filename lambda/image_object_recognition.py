@@ -28,7 +28,7 @@ def index_faces(bucket, key):
     return response
 
 def post_to_callback_receiver(rekognition_output, key):
-    results_callback_url = 'http://12646c18.ngrok.io'
+    results_callback_url = 'http://1b78e49d.ngrok.io/image'
     data = json.dumps({'labels': rekognition_output, 's3key': key})
     req = urllib2.Request(results_callback_url, data, {'Content-Type': 'application/json'})
     response = urllib2.urlopen(req)
