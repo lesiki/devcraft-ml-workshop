@@ -1,15 +1,13 @@
-## Kotlin Spark Demo App
+## Kotlin Spark App for Devcraft 2018 ML APIs workshop
 
+Adapted from Kotlin quick-start app guide: https://github.com/sureshg/kotlin-spark
 
 ### How to Run
 
 ```ruby
-$ git clone git@github.com:sureshg/kotlin-spark.git
-$ cd kotlin-spark
 $ ./gradlew clean run
 ```
 
 
-Go to - [http://localhost:4567/hello](http://localhost:4567/hello)
+Go to - [http://localhost:8080/image](http://localhost:8080/image)
 
-For statis files - [http://localhost:4567/.ssh/id_rsa.pub](http://localhost:4567/.ssh/id_rsa.pub)
