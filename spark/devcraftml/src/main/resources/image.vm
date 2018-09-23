@@ -1,5 +1,15 @@
 <html>
   <body>
-    <h1>Hello there</h1>
+    <h1>Latest Image Result</h1>
+    <div>
+        <img width="400" src="https://s3.amazonaws.com/devcraft-ml-workshop-2/$latestImageResult.s3key"></img>
+    </div>
+    <div>
+        <ul>
+           #foreach( $label in $latestImageResult.labels )
+                <li><em>$label.name</em> with $label.confidence certainty</li>
+           #end
+        </ul>
+    </div>
   </body>
 </html>
