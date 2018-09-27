@@ -1,8 +1,3 @@
-/**
- * Spark kotlin demo build script
- *
- * @author Suresh G
- */
 buildscript {
     ext {
         kotlin_version = '1.0.0-beta-4583'
